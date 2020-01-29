@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+}
+header {
+  width: 100%;
+  background-image: url('../images/header.png');
+  background-size: 90%;
+  background-attachment: fixed;
+  background-position: center;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  background-color: #fafafc;
+  height: 100vh;
+}
+.nav {
+  width: 100%;
+  height: 300px;
+  background-color: transparent;
+  padding: 40px 120px;
+}
+.nav .logo {
+  width: 200px;
+}
+.nav ul {
+  padding: 0;
+  float: right;
+}
+.nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 30px;
+  font-size: 20px;
+}
+
+.header-text {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 75px;
+  margin-top: 140px;
+  padding: 5px 150px;
+}
+
+.header-text span {
+  display: block;
+}
+section {
+  padding: 0px 150px;
+  margin-top: 100px;
+}
+.section_header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #242424;
+}
+.section_text {
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 33px;
+  color: #242424;
+}
+
+.selected_work {
+}
+.selected_work a {
+  text-decoration: none;
+}
+.selected_work a span {
+  color: #505050;
+}
+.selected_work a {
+  text-decoration: none;
+  border-bottom: 1px solid #505050;
+  /* border: 1px solid #eee; */
+  /* cursor: pointer; */
+  /* transform: scale(0.95);
+  transition: linear all 0.3s; */
+}
+.selected_work .narrow_img,
+.selected_work .wide_img {
+  text-align: center;
+  padding: 70px 0;
+}
+.selected_work .narrow_img {
+  height: 680px;
+}
+.selected_work .wide_img {
+  height: 420px;
+}
+.selected_work .blue_bg- {
+  background: rgba(52, 119, 220, 0.1);
+}
+.selected_work .light_bg- {
+  background: rgba(52, 84, 209, 0.03);
+}
+.selected_work .green_bg- {
+  background: rgba(72, 139, 73, 0.05);
+}
+.selected_work .pink_bg- {
+  background: rgba(238, 21, 59, 0.05);
+}
+.selected_work .narrow_img img {
+  width: 50%;
+}
+.selected_work .green_bg- img {
+  width: 80%;
+  margin-top: -15px;
+}
+.selected_work .wide_img img {
+  width: 80%;
+}
+.work_details {
+  width: 100%;
+  margin-bottom: 40px;
+  height: 150px;
+}
+.work_details .name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 33px;
+  color: #505050;
+}
+.work_details .desc {
+  font-size: 14px;
+  line-height: 26px;
+  color: #505050;
+}
+
+footer {
+  margin: 100px 150px;
+  padding: 30px 0;
+  border-top: 1px solid #dddddd;
+}
+footer .footer_header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 44px;
+  color: #000000;
+}
+footer .footer_text {
+  font-size: 18px;
+  line-height: 34px;
+  width: 75%;
+  color: #000000;
+}
+footer ul {
+  padding: 0;
+}
+footer ul li {
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+@media (max-width: 767px) {
+  header {
+    background-size: cover;
+    background-position: center;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-color: #fafafc;
+    height: 95vh;
+    position: relative;
+  }
+  header .nav {
+    height: auto;
+    padding: 12px;
+  }
+  .nav .logo {
+    width: 150px;
+  }
+  .nav ul {
+    padding: 0;
+    float: right;
+    margin: 8px 0;
+  }
+  .nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 2px;
+    font-size: 14px;
+  }
+  .header-text {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-top: 140px;
+    padding: 12px;
+    position: absolute;
+    bottom: -30px;
+  }
+  section {
+    padding: 0px 10px;
+    margin-top: 20px;
+  }
+  .section_header {
+    margin: 10px 0 0 0;
+    padding: 0 10px;
+  }
+  .section_text {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 28px;
+    color: #242424;
+    padding: 0 10px;
+  }
+  .selected_work .narrow_img,
+  .selected_work .wide_img {
+    height: 370px;
+    padding: 20px;
+  }
+  .selected_work .narrow_img img {
+    width: 60%;
+  }
+  .selected_work .wide_img img {
+    width: 100%;
+  }
+  .selected_work .green_bg- img {
+    margin-top: 25px;
+  }
+  footer {
+    margin: 20px;
+  }
+  footer .footer_text {
+    font-size: 16px;
+    line-height: 30px;
+    width: 100%;
+    color: #000000;
+  }
+}
